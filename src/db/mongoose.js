@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect(process.env.MONODB_URI, {
+mongoose.connect('mongodb+srv://hazemallam:sabreEnwagdy@cluster0.vaftt.mongodb.net/task-manager-api', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
